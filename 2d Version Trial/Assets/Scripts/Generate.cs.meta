@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 9d6d6ef865f2c1143aba68e9422bc9b1
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - beams: {fileID: 100004, guid: c928416354ed41540a055bc11137b898, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
