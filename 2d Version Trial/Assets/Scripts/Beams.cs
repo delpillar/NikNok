@@ -15,4 +15,11 @@ public class Beams : MonoBehaviour {
 
 		transform.position = new Vector3(transform.position.x, transform.position.y - randomRange * random, transform.position.z);
 	}
+
+	void Update() 
+	{
+		if (rigidbody2D.transform.position.x >= 12) {
+			Destroy(this.gameObject);
+				}
+	}
 }

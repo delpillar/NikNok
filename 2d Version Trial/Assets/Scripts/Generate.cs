@@ -4,7 +4,7 @@ using System.Collections;
 public class Generate : MonoBehaviour {
 
 	public GameObject beams;
-	
+
 	// Use this for initialization
 	void Start()
 	{
@@ -13,6 +13,8 @@ public class Generate : MonoBehaviour {
 	
 	void CreateObstacle()
 	{
-		Instantiate(beams);
+		GameObject beamObject = (GameObject) Instantiate(beams);
+		beamObject.transform.tag = "Beams";
+
 	}
 }
