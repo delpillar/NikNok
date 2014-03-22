@@ -13,8 +13,6 @@ public class Generate : MonoBehaviour {
 	
 	void CreateObstacle()
 	{
-		GameObject beamObject = (GameObject) Instantiate(beams);
-		beamObject.transform.tag = "Beams";
-
+		Instantiate(beams);
 	}
 }
