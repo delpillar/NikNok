@@ -9,10 +9,12 @@ public class Generate : MonoBehaviour {
 	void Start()
 	{
 		InvokeRepeating("CreateObstacle", 1f, 2f);
+
 	}
 	
 	void CreateObstacle()
 	{
 		Instantiate(beams);
+		this.audio.Play ();
 	}
 }

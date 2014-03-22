@@ -11,13 +11,15 @@ public class Smoke : MonoBehaviour {
 		GameObject player = GameObject.FindGameObjectWithTag ("Player");
 		rigidbody2D.velocity = velocity;
 		transform.position = new Vector3(player.transform.position.x - 1, player.transform.position.y, 2);
+
 	}
 
 	void Update()
 	{
-		if (rigidbody2D.transform.position.x <= -5) {
+		if (rigidbody2D.transform.position.x <= -4.7) {
 			Destroy(this.gameObject);
 				}
+
 	}
 
 }
