@@ -46,11 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Beams.cs" />
-     <Compile Include="Assets\Scripts\Generate.cs" />
-     <Compile Include="Assets\Scripts\PlayerScript.cs" />
-     <Compile Include="Assets\Scripts\Smoke.cs" />
-     <Compile Include="Assets\Scripts\SmokeGenerate.cs" />
+     <Compile Include="Assets\Scripts\Instantiate\BackgroundScript.cs" />
+     <Compile Include="Assets\Scripts\Instantiate\Generate.cs" />
+     <Compile Include="Assets\Scripts\Instantiate\SmokeGenerate.cs" />
+     <Compile Include="Assets\Scripts\Logic\BG\bg1script.cs" />
+     <Compile Include="Assets\Scripts\Logic\BG\bg2script.cs" />
+     <Compile Include="Assets\Scripts\Logic\Beams.cs" />
+     <Compile Include="Assets\Scripts\Logic\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\Logic\Smoke.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
